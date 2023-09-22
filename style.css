@@ -1,0 +1,259 @@
+/* Geral */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F1F2F7;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Página LOGIN */
+
+.login {
+    background-image: linear-gradient(to bottom, #65AEF7, #1C88F4, #156CC2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    border-radius: 20px;
+    min-height: 558px;
+    overflow-y: auto;
+    min-width: 40%;
+    max-width: 80%;
+}
+
+.login > div div {
+    margin: 10px;
+}
+
+.login > div > img {
+    width: 200px;
+    height: 200px;
+}
+
+.login img {
+    width: 20px;
+    height: 20px;
+}
+
+.login > input {
+    width: 200px;
+    height: 50px;
+}
+
+.diferente {
+    width: 100px;
+    height: 30px;
+}
+
+.login p {
+    text-align: center;
+}
+
+/* PÁGINA PRINCIPAL */
+
+.principal-2 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.principal-2-1 {
+    background-color: white;
+}
+
+.principal-2-1 img {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.principal-2-1 section {
+    text-align: center;
+}
+
+.principal-2-1 section h1 {
+    padding-bottom: 10px;
+}
+
+.principal-2-1 section h2 {
+    padding-bottom: 10px;
+}
+
+.principal-2-1 section ul li {
+    list-style: none;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.principal-2-1 section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.principal-2-2-1 {
+    background-color: #18244D;
+}
+
+.principal-2-2-1 h1 {
+    color: white;
+    padding-left: 30px;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.principal-2-2-1-1 {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.principal-2-2-1-1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* PÁGINA CONTEÚDO VIVENCIADO */
+
+.conteudo-2-2-2-1, .conteudo-2-2-2-2, .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5 {
+    margin: 20px auto;
+    width: 90vw;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.conteudo-2-2-2-1-1 {
+    padding-bottom: 30px;
+}
+
+.conteudo-2-2-2-2-1-1 h1 {
+    padding-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    height: 8vw;
+    width: 30vw;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+}
+
+th {
+    background-color: #eee;
+}
+
+.sem-aula {
+    background-color: #8898AA;
+}
+
+.sa::marker {
+    color: #8898AA;
+}
+
+.concluido {
+    background-color: #2DCE89;
+}
+
+.c::marker {
+    color: #2DCE89;
+}
+
+.incompleto {
+    background-color: #D2B000;
+}
+
+.i::marker {
+    color: #D2B000;
+}
+
+.sem-lancamento {
+    background-color: #F5365C;
+}
+
+.sl::marker {
+    color: #F5365C;
+}
+
+.feriado {
+    background-color: #5E72E4;
+}
+
+.f::marker {
+    color: #5E72E4;
+}
+
+.conteudo-2-2-2-2-1 {
+    background-color: white;
+    margin: 10px;
+}
+
+.conteudo-2-2-2-2-1-1 {
+    overflow-x: auto;
+}
+
+.conteudo-2-2-2-2-1-2 {
+    padding-top: 20px;
+}
+
+.conteudo-2-2-2-2-1-2 ul li {
+    margin-left: 17px;
+}
+
+.conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5 {
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.conteudo-2-2-2-3 {
+    background-color: #F75676;
+}
+
+.conteudo-2-2-2-4 {
+    background-color: #F1F2F7;
+    text-align: right;
+    padding: 10px;
+}
+
+.conteudo-2-2-2-4 a {
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.conteudo-2-2-2-5 {
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
