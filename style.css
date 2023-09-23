@@ -314,3 +314,30 @@ th {
     text-align: center;
     padding-bottom: 20px;
 }
+
+.frequencia-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.frequencia-3 a {
+    text-decoration: none;
+}
+
+.frequencia-3-1 a {
+    color: #4385b1;
+}
+
+.frequencia-3-2 a {
+    color: white;
+}
+
+.frequencia-3-1, .frequencia-3-2 {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.frequencia-3-2 {
+    background-color: #2DCE89;
+}
