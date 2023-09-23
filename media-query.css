@@ -19,15 +19,24 @@
     }
 
     .principal-2-2 {
+        max-width: 65vw;
         overflow-y: auto;
     }
     
     .principal-2-2-1 {
-        height: 160px;
+        min-height: 160px;
         width: 65vw;
     }
 
     /* PÁGINA CONTEÚDO */
+
+    .conteudo-2-2-2 {
+        max-width: 65vw;
+    }
+
+    .conteudo-2-2-2-1, .conteudo-2-2-2-2, .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5 {
+        max-width: 55vw;
+    }
 }
   
 @media (min-width: 993px) and (max-width: 1200px) { /* Desktop */
@@ -49,15 +58,24 @@
     }
 
     .principal-2-2 {
+        max-width: 75vw;
         overflow-y: auto;
     }
     
     .principal-2-2-1 {
-        height: 160px;
+        min-height: 160px;
         width: 75vw;
     }
 
     /* PÁGINA CONTEÚDO */
+
+    .conteudo-2-2-2 {
+        max-width: 75vw;
+    }
+
+    .conteudo-2-2-2-1, .conteudo-2-2-2-2, .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5 {
+        max-width: 70vw;
+    }
 }
 
 @media (min-width: 1201px) { /* TV */
@@ -79,13 +97,43 @@
     }
     
     .principal-2-2 {
+        max-width: 80vw;
         overflow-y: auto;
     }
     
     .principal-2-2-1 {
-        height: 160px;
+        min-height: 160px;
         width: 80vw;
     }
 
     /* PÁGINA CONTEÚDO */
+    
+    .conteudo-2-2-2-1 {
+        width: 76vw;
+    }
+
+    #conteudo-2-2-2-2 {
+        display: flex;
+    }
+    
+    .conteudo-2-2-2-2 {
+        width: 38vw;
+        margin: 0 auto 30px auto;
+    }
+
+    #conteudo-2-2-2-2-2 {
+        width: 38vw;
+    }
+
+    .conteudo-2-2-2-3 {
+        margin-top: 0;
+    }
+
+    .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5 {
+        width: 34vw;
+    }
+
+    th, td {
+        height: 5vw;
+    }
 }
