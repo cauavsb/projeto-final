@@ -346,6 +346,14 @@ th {
     padding-bottom: 20px;
 }
 
+.frequencia-alunos div p {
+    padding: 0;
+}
+
+.p-especial {
+    margin-right: 13px;
+}
+
 .frequencia-3 {
     display: flex;
     justify-content: center;
