@@ -28,14 +28,25 @@
         width: 65vw;
     }
 
-    /* PÁGINA CONTEÚDO */
+    /* CONTEÚDO */
 
     .conteudo-2-2-2 {
         max-width: 65vw;
     }
 
-    .conteudo-2-2-2-1, .conteudo-2-2-2-2, .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5 {
+    .conteudo-2-2-2-1, .conteudo-2-2-2-2, .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5, .conteudo-verde {
         max-width: 55vw;
+    }
+
+    /* PÁGINA CONTEÚDO */
+
+    .conteudo-diferente {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .conteudo-diferente div {
+        width: 48%;
     }
 }
   
@@ -67,14 +78,25 @@
         width: 75vw;
     }
 
-    /* PÁGINA CONTEÚDO */
+    /* CONTEÚDO */
 
     .conteudo-2-2-2 {
         max-width: 75vw;
     }
 
-    .conteudo-2-2-2-1, .conteudo-2-2-2-2, .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5 {
+    .conteudo-2-2-2-1, .conteudo-2-2-2-2, .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5, .conteudo-verde {
         max-width: 70vw;
+    }
+    
+    /* PÁGINA CONTEÚDO */
+
+    .conteudo-diferente {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .conteudo-diferente div {
+        width: 48%;
     }
 }
 
@@ -106,7 +128,7 @@
         width: 80vw;
     }
 
-    /* PÁGINA CONTEÚDO */
+    /* CONTEÚDO */
     
     .conteudo-2-2-2-1 {
         width: 76vw;
@@ -125,15 +147,26 @@
         width: 38vw;
     }
 
-    .conteudo-2-2-2-3 {
+    .conteudo-2-2-2-3, .conteudo-verde {
         margin-top: 0;
     }
 
-    .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5 {
+    .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5, .conteudo-verde {
         width: 34vw;
     }
 
     th, td {
         height: 5vw;
+    }
+    
+    /* PÁGINA CONTEÚDO */
+
+    .conteudo-diferente {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .conteudo-diferente div {
+        width: 48%;
     }
 }

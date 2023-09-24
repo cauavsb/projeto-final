@@ -39,8 +39,7 @@ main {
     border-radius: 20px;
     min-height: 558px;
     overflow-y: auto;
-    min-width: 40%;
-    max-width: 80%;
+    min-width: 20%;
 }
 
 .login > div div {
@@ -137,7 +136,7 @@ main {
 
 /* PÁGINAS CONTEÚDO VIVENCIADO E FREQUÊNCIA */
 
-.conteudo-2-2-2-1, .conteudo-2-2-2-2, .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5 {
+.conteudo-2-2-2-1, .conteudo-2-2-2-2, .conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5, .conteudo-verde {
     margin: 20px auto;
     width: 90vw;
     background-color: white;
@@ -232,13 +231,18 @@ th {
     margin-left: 17px;
 }
 
-.conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5 {
+.conteudo-2-2-2-3, .conteudo-2-2-2-4, .conteudo-2-2-2-5, .conteudo-verde {
     padding: 30px;
     margin-top: 10px;
 }
 
 .conteudo-2-2-2-3 {
     background-color: #F75676;
+}
+
+.conteudo-verde {
+    background-color: #2DCE89;
+    color: white;
 }
 
 .conteudo-2-2-2-4 {
@@ -256,6 +260,30 @@ th {
     background-color: white;
     text-align: center;
     padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo-2-2-2-5 > div {
+    text-align: left;
+}
+
+.conteudo-2-2-2-5 p {
+    padding-bottom: 10px;
+}
+
+.conteudo-2-2-2-5 img {
+    width: 20px;
+    height: 30px;
+}
+
+.conteudo-2-2-2-5-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-2-2-2-5-2 img {
+    padding-bottom: 10px;
 }
 
 /* PÁGINA MODELO FREQUÊNCIA */
@@ -340,4 +368,54 @@ th {
 
 .frequencia-3-2 {
     background-color: #2DCE89;
+}
+
+/* PÁGINA MODELO DE CONTEÚDO */
+
+.frequencia-1 textarea {
+    width: 100%;
+}
+
+.frequencia-1 select {
+    width: 100%;
+}
+
+.conteudo-diferente div {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+/* PARECER */
+
+.frequencia-2 p {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.frequencia-2 a {
+    text-decoration: none;
+}
+
+.parecer-2 p {
+    text-align: center;
+}
+
+#div-tabela {
+    width: 100%; 
+    overflow-x: auto;
+}
+
+.parecer-alunos {
+    white-space: nowrap;
+}
+
+.parecer-alunos td, th {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+#td-diferente a img {
+    width: 20px;
+    height: 20px;
 }
